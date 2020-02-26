@@ -18,4 +18,4 @@ Route::get('/', function () {
 /*
     LUAR COWORKING 
 */
-Route::get('form-cadastro-reserva', 'LuarCo\CadastroReservaController@formShow');
+Route::get('/form-cadastro-reserva', 'LuarCo\CadastroReservaController@formShow');
