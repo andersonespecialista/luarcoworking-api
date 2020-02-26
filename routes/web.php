@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	return 'Jesus Cristo é o Senhor';
+	//return view('luarcoworking.cadastro-reserva');
 });
 
 Route::get('te', function () {
