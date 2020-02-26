@@ -12,13 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	return 'Jesus Cristo é o Senhor';
+	//return view('luarcoworking.cadastro-reserva');
 });
 
 /*
     LUAR COWORKING 
 */
-Route::get('/form-cadastro-reserva', function(){
-    echo 'Jesus Cristo é o Senhor';
+Route::get('/form', function () {
+    return 'Jesus Cristo é o Senhor';
 });
 //Route::get('/form-cadastro-reserva', 'LuarCo\CadastroReservaController@formShow');
