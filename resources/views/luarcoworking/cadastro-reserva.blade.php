@@ -309,17 +309,18 @@ img.emoji {
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-6eb331c1 elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="6eb331c1" data-element_type="widget" data-widget_type="icon-list.default">
 				<div class="elementor-widget-container">
-					<ul class="elementor-icon-list-items">
+				<ul class="elementor-icon-list-items">
+							<!-- FORMULARIO -->
 							<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">Nome</span>
-									</li>
-								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">E-mail</span>
-									</li>
-								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">Cel</span>
-									</li>
-						</ul>
+									<input type="text" class="form-control" style="border-color:gray" id="doc" autocomplete="off" placeholder="Nome" value="" v-model="docfull" v-on:keyup="validFormsDocKeyUp()">
+								</li>
+							<li class="elementor-icon-list-item">
+									<input type="email" class="form-control" style="margin-top: 5px; border-color:gray" id="doc" autocomplete="off" placeholder="E-mail" value="" v-model="docfull" v-on:keyup="validFormsDocKeyUp()">
+								</li>
+							<li class="elementor-icon-list-item">
+									<input type="number" class="form-control" style="margin-top: 5px; border-color:gray" id="doc" autocomplete="off" placeholder="Celular" value="" v-model="docfull" v-on:keyup="validFormsDocKeyUp()">
+								</li>
+					</ul>
 				</div>
 				</div>
 						</div>
