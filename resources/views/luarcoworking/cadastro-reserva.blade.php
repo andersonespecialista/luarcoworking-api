@@ -1,7 +1,9 @@
 <!doctype html>
-<html lang="pt-BR"><head>
+<html lang="pt-BR">
+<head>
 	<meta charset="UTF-8">
-		<title>form-reserva-2 – Luar Coworking</title>
+	<meta name="csrf-token" content="{{ csrf_token() }}">
+		<title>Reserva – Luar Coworking</title>
 <link rel="dns-prefetch" href="//s.w.org">
 <link rel="alternate" type="application/rss+xml" title="Feed para Luar Coworking »" href="http://18.220.210.235/luarcoworking/index.php/feed/">
 <link rel="alternate" type="application/rss+xml" title="Feed de comentários para Luar Coworking »" href="http://18.220.210.235/luarcoworking/index.php/comments/feed/">
@@ -41,7 +43,9 @@ img.emoji {
 <link rel="canonical" href="http://18.220.210.235/luarcoworking/index.php/form-reserva-2/">
 <link rel="shortlink" href="http://18.220.210.235/luarcoworking/?p=144">
 <link rel="alternate" type="application/json+oembed" href="http://18.220.210.235/luarcoworking/index.php/wp-json/oembed/1.0/embed?url=http%3A%2F%2F18.220.210.235%2Fluarcoworking%2Findex.php%2Fform-reserva-2%2F">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"></head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	
+	</head>
 <body class="page-template page-template-elementor_canvas page page-id-144 elementor-default elementor-template-canvas elementor-kit-8 elementor-page elementor-page-144" data-elementor-device-mode="mobile" cz-shortcut-listen="true">
 			<div data-elementor-type="wp-page" data-elementor-id="144" class="elementor elementor-144" data-elementor-settings="[]">
 			<div class="elementor-inner">
@@ -94,7 +98,7 @@ img.emoji {
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-f36846b elementor-widget elementor-widget-heading" data-id="f36846b" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h1 class="elementor-heading-title elementor-size-xl">Formulário</h1>		</div>
+			<h1 class="elementor-heading-title elementor-size-xl">Reservar</h1>		</div>
 				</div>
 						</div>
 			</div>
@@ -102,72 +106,12 @@ img.emoji {
 						</div>
 			</div>
 		</section>
-				<section class="elementor-element elementor-element-18f96993 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="18f96993" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-6c980a2a elementor-column elementor-col-100 elementor-top-column" data-id="6c980a2a" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<section class="elementor-element elementor-element-78ee05dd elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="78ee05dd" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-6c03508c elementor-column elementor-col-100 elementor-inner-column" data-id="6c03508c" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-6eb331c1 elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="6eb331c1" data-element_type="widget" data-widget_type="icon-list.default">
-				<div class="elementor-widget-container">
-				<ul class="elementor-icon-list-items">
-							<!-- FORMULARIO -->
-							<li class="elementor-icon-list-item">
-									<input type="text" class="form-control" style="border-color:gray" id="doc" autocomplete="off" placeholder="Nome" value="" v-model="docfull" v-on:keyup="validFormsDocKeyUp()">
-								</li>
-							<li class="elementor-icon-list-item">
-									<input type="email" class="form-control" style="margin-top: 5px; border-color:gray" id="doc" autocomplete="off" placeholder="E-mail" value="" v-model="docfull" v-on:keyup="validFormsDocKeyUp()">
-								</li>
-							<li class="elementor-icon-list-item">
-									<input type="number" class="form-control" style="margin-top: 5px; border-color:gray" id="doc" autocomplete="off" placeholder="Celular" value="" v-model="docfull" v-on:keyup="validFormsDocKeyUp()">
-								</li>
-					</ul>
+				<!-- section -->
+				<div id="app">
+					<form-reserva-component></form-reserva-component>
 				</div>
+
 				</div>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-				<section class="elementor-element elementor-element-5dd58053 elementor-section-height-full elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="5dd58053" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-3fe80b3d elementor-column elementor-col-100 elementor-top-column" data-id="3fe80b3d" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-			<div class="elementor-column-wrap  elementor-element-populated">
-							<div class="elementor-background-overlay"></div>
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-32f09ab4 elementor-align-center elementor-widget elementor-widget-button" data-id="32f09ab4" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Confirmar </span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-						</div>
 			</div>
 		</div>
 		<script type="text/javascript" src="http://18.220.210.235/luarcoworking/wp-includes/js/wp-embed.min.js?ver=5.3.2"></script>
@@ -183,6 +127,7 @@ img.emoji {
 var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","downloadImage":"Download image"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.9.2","urls":{"assets":"http:\/\/18.220.210.235\/luarcoworking\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_lightbox_enable_counter":"yes","elementor_lightbox_enable_fullscreen":"yes","elementor_lightbox_enable_zoom":"yes","elementor_lightbox_enable_share":"yes","elementor_lightbox_title_src":"title","elementor_lightbox_description_src":"description"},"editorPreferences":[]},"post":{"id":144,"title":"form-reserva-2 &#8211; Luar Coworking","excerpt":"","featuredImage":false}};
 </script>
 <script type="text/javascript" src="http://18.220.210.235/luarcoworking/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.9.2"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
-	
+
+<script src="./js/app.js"></script>
 
 </body></html>

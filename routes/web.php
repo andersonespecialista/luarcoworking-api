@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-	return 'Jesus Cristo é o Senhor';
+	
 	//return view('luarcoworking.cadastro-reserva');
 });
 
@@ -24,3 +24,7 @@ Route::get('te', function () {
     LUAR COWORKING 
 */
 Route::get('form-reserva', 'LuarCo\CadastroReservaController@formShow');
+
+Route::post('api/reserva/escritorio', 'Reservas\ReservaEscritorioController@cadReserva');
+
+
