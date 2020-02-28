@@ -88,8 +88,8 @@ img.emoji {
 		</div>
 						</div>
 			</div>
-		</section>
-				<section class="elementor-element elementor-element-5ea4b9eb elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="5ea4b9eb" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		</section >
+				<section style="margin-top: 4px" class="elementor-element elementor-element-5ea4b9eb elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="5ea4b9eb" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-default">
 				<div class="elementor-row">
