@@ -14,6 +14,7 @@ class ReservaEscritorioController extends Controller
 
         
         try{
+            date_default_timezone_set('America/Fortaleza');
             $retorno = ReservaEscritorio::create($params);
             return response()->json(['ReservaEscritorio' => $retorno]);
         }catch(Exception $exception){
