@@ -43,7 +43,7 @@
                 </ul>
 
                 <!-- Mensagem de sucesso -->
-                <div v-if="showMsgSucesso" style="margin-left: 15%">
+                <div v-if="showMsgSucesso" style="display:block; height: 130px; margin: 15% auto 0px 10%;">
                     <ul v-if="true" class="elementor-icon-list-items">
                     <li class="elementor-icon-list-item" >
                         <h6 style="color:green; letter-spacing: 1px; box-shadow: 2px 2px 5px #999; padding: 4px 7px">Reserva efetuada com sucesso !</h6>
