@@ -148,7 +148,7 @@ export default {
                 this.efetivarReserva();
             }
 
-            if(this.textButton == 'Nova reserva'){
+            if(this.textButton == '+ Add '){
                 this.showGif = false;
                 this.showMsgSucesso = false;
                 this.showForm = true;
@@ -184,7 +184,7 @@ export default {
                 //this.xxxx = body.xxxx;
                 console.log('retorno');
                 console.log(body);
-                this.textButton = 'Nova reserva';
+                this.textButton = '+ Add ';
                 //this.styleButton = this.stylebuttonBlue;
                 this.styleButton = '';
                 this.showGif = false;
